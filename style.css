@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200&display=swap');
-:root{
-  --light-black:#3E3C3C;
-  --black:#1C1A19;
-  --orange:#F55800;
-  --gray:#E5E5E5;
-  --para-color-dark:#F4F5F7;
-  --para-color-light:#091E42;
-  --para-color-contact:#262626;
-  --font-heading:'Crete Round';
-  --font-small-heading:'Inter';
 
+:root {
+  --light-black: #3e3c3c;
+  --black: #1c1a19;
+  --orange: #f55800;
+  --gray: #e5e5e5;
+  --para-color-dark: #f4f5f7;
+  --para-color-light: #091e42;
+  --para-color-contact: #262626;
+  --font-heading: 'Crete Round';
+  --font-small-heading: 'Inter';
 }
 
 a {
@@ -22,181 +22,178 @@ img {
   height: auto;
 }
 
-nav{
+nav {
   background: var(--light-black);
-    
 }
 
-.main-s{
-  padding:4rem 1rem;
+.main-s {
+  padding: 4rem 1rem;
   background: var(--black) url(images/background-image.png) no-repeat;
-  background-size:50%;
+  background-size: 50%;
   background-position: right;
 }
 
-.main-s h1{
-    color: var(--orange);
-    font-family: var(--font-heading),sans-serif;
+.main-s h1 {
+  color: var(--orange);
+  font-family: var(--font-heading), sans-serif;
 }
 
-.main-s h2{
-    color: #fff;
-    font-family: var(--font-small-heading),sans-serif;
+.main-s h2 {
+  color: #fff;
+  font-family: var(--font-small-heading), sans-serif;
 }
 
-.main-s p{
-    color: var(--para-color-dark);
-    font-family: var(--font-small-heading),sans-serif;
+.main-s p {
+  color: var(--para-color-dark);
+  font-family: var(--font-small-heading), sans-serif;
 }
 
-.social-icon{
-    position: fixed;
-    top:30vh;
-    left:2rem;
-    z-index: 10;
-    
+.social-icon {
+  position: fixed;
+  top: 30vh;
+  left: 2rem;
+  z-index: 10;
 }
 
-.social-icon li{
-   margin-bottom: 1rem;
+.social-icon li {
+  margin-bottom: 1rem;
 }
 
-.about-me-container{
-   background: var(--black) url(images/Frame.png) no-repeat;
-   background-position:100% 23%;
-   background-size: 35%;
+.about-me-container {
+  background: var(--black) url(images/Frame.png) no-repeat;
+  background-position: 100% 23%;
+  background-size: 35%;
 }
 
-.about-me-content{
- margin-top: 10vh;
- }
+.about-me-content {
+  margin-top: 10vh;
+}
 
-.about-me-content h2{
-  font-family: var(--font-heading),sans-serif;
+.about-me-content h2 {
+  font-family: var(--font-heading), sans-serif;
   color: var(--orange);
 }
 
-.about-me-content p{
-font-family: var(--font-small-heading),sans-serif;
+.about-me-content p {
+  font-family: var(--font-small-heading), sans-serif;
 }
 
 .btn-custom {
-    background-color: var(--orange);
-    font-family: var(--font-small-heading);
+  background-color: var(--orange);
+  font-family: var(--font-small-heading);
 }
 
-.about-me-container .hr-row{
-    color: var(--gray);
-}
-
-.about-me-container .skill-row{
-    color: var(--para-color-dark);
-    margin-left: 5vw;
-}
-
-.about-me-container .skill-row img{
-  width: 1.5rem;
-  height: 1.5rem;    
-}
-
-.about-me-container .skill-row ul li{
-    margin: 1rem 0;
-}
-
-.contact-btn{
-    background-color: var(--orange);
-    color: #fff;
-    font-family: var(--font-heading);
+.about-me-container .hr-row {
+  color: var(--gray);
 }
 
 /* =============Work section css=========== */
-.stack li{
-    cursor: pointer;
+.stack li {
+  cursor: pointer;
 }
+
+.about-me-container .skill-row {
+  color: var(--para-color-dark);
+  margin-left: 5vw;
+}
+
+.about-me-container .skill-row img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.about-me-container .skill-row ul li {
+  margin: 1rem 0;
+}
+
+.contact-btn {
+  background-color: var(--orange);
+  color: #fff;
+  font-family: var(--font-heading);
+}
+
 
 /* =============== cards =========== css */
 .card {
-    min-height: 20rem;
+  min-height: 20rem;
 }
 
-.card-item-btn{
-    background-color: rgba(255, 255, 255, 0.40);
+.card-item-btn {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .card-1 {
-    background: url(images/card-4.png) no-repeat;
-    background-size: 100% 100%;
+  background: url(images/card-4.png) no-repeat;
+  background-size: 100% 100%;
 }
 
 .card-2 {
-    background: url(images/card-1.png) no-repeat;
-    background-size: cover;
+  background: url(images/card-1.png) no-repeat;
+  background-size: cover;
 }
 
 .card-3 {
-    background: url(images/card-5.png) no-repeat;
-    background-size: cover;
+  background: url(images/card-5.png) no-repeat;
+  background-size: cover;
 }
 
 .card-4 {
-    background: url(images/card-3.png) no-repeat;
-    background-size: cover;
+  background: url(images/card-3.png) no-repeat;
+  background-size: cover;
 }
 
 .card-5 {
-    background: url(images/card-1.png) no-repeat;
-    background-size: cover;
+  background: url(images/card-1.png) no-repeat;
+  background-size: cover;
 }
 
 .card-6 {
-    background: url(images/card-5.png) no-repeat;
-    background-size: cover;
+  background: url(images/card-5.png) no-repeat;
+  background-size: cover;
 }
 
 .card-body {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 .card-btn-p {
-    text-align: center;
-    padding: 0.5rem 0;
-    background-color: var(--orange);
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: var(--orange);
 }
 
 /* ============= media queries ========== */
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 768px) {
+  .main-s {
+    background-size: 30%;
+    background-position: bottom right;
+    position: relative;
+  }
 
-    .main-s{
-        background-size: 30%;
-        background-position: bottom right;
-        position: relative;
-    }
-    .social-icon{
-        position: absolute;
-        top:65vh;
-        left:15vw;
-        width: 10rem;
-        
-    }
-    .social-icon ul{
-        display: flex;
-        justify-content: space-between;
-        
-    }
+  .social-icon {
+    position: absolute;
+    top: 65vh;
+    left: 15vw;
+    width: 10rem;
+  }
 
-    .about-me-container{
-        background-position: 100% 27%;
-        margin: 1.5rem !important;
-    
-      }
-    .about-me-container .skill-row .mob-p{
-        padding: 0 !important;
-        margin-bottom: 1.5rem;
-        text-align:center ;
+  .social-icon ul {
+    display: flex;
+    justify-content: space-between;
+  }
 
-      }
-      
-    .about-me-container .skill-row .mob-p .d-flex{
-        justify-content:center !important;
-      }
+  .about-me-container {
+    background-position: 100% 27%;
+    margin: 1.5rem !important;
+  }
+
+  .about-me-container .skill-row .mob-p {
+    padding: 0 !important;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .about-me-container .skill-row .mob-p .d-flex {
+    justify-content: center !important;
+  }
 }
