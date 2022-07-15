@@ -1,44 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200&display=swap');
 :root{
-    --light-black:#3E3C3C;
-    --black:#1C1A19;
-    --orange:#F55800;
-    --gray:#E5E5E5;
-    --para-color-dark:#F4F5F7;
-    --para-color-light:#091E42;
-    --para-color-contact:#262626;
-    --font-heading:'Crete Round';
-    --font-small-heading:'Inter';
+  --light-black:#3E3C3C;
+  --black:#1C1A19;
+  --orange:#F55800;
+  --gray:#E5E5E5;
+  --para-color-dark:#F4F5F7;
+  --para-color-light:#091E42;
+  --para-color-contact:#262626;
+  --font-heading:'Crete Round';
+  --font-small-heading:'Inter';
 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 nav{
-    background: var(--light-black);
+  background: var(--light-black);
     
 }
+
 .main-s{
-    padding:4rem 1rem;
-    background: var(--black) url(images/background-image.png) no-repeat;
-    background-size:50%;
-    background-position: right;
+  padding:4rem 1rem;
+  background: var(--black) url(images/background-image.png) no-repeat;
+  background-size:50%;
+  background-position: right;
 }
+
 .main-s h1{
     color: var(--orange);
     font-family: var(--font-heading),sans-serif;
 }
+
 .main-s h2{
     color: #fff;
     font-family: var(--font-small-heading),sans-serif;
 }
+
 .main-s p{
     color: var(--para-color-dark);
     font-family: var(--font-small-heading),sans-serif;
 }
+
 .social-icon{
     position: fixed;
     top:30vh;
@@ -46,43 +56,49 @@ nav{
     z-index: 10;
     
 }
+
 .social-icon li{
    margin-bottom: 1rem;
 }
 
 .about-me-container{
- background: var(--black) url(images/Frame.png) no-repeat;
- background-position:100% 23%;
- background-size: 35%;
-    }
+   background: var(--black) url(images/Frame.png) no-repeat;
+   background-position:100% 23%;
+   background-size: 35%;
+}
 
 .about-me-content{
  margin-top: 10vh;
  }
 
 .about-me-content h2{
-font-family: var(--font-heading),sans-serif;
-color: var(--orange);
+  font-family: var(--font-heading),sans-serif;
+  color: var(--orange);
 }
 
 .about-me-content p{
 font-family: var(--font-small-heading),sans-serif;
 }
-.about-me-content a{
+
+.btn-custom {
     background-color: var(--orange);
     font-family: var(--font-small-heading);
 }
+
 .about-me-container .hr-row{
     color: var(--gray);
 }
+
 .about-me-container .skill-row{
     color: var(--para-color-dark);
     margin-left: 5vw;
 }
+
 .about-me-container .skill-row img{
   width: 1.5rem;
   height: 1.5rem;    
 }
+
 .about-me-container .skill-row ul li{
     margin: 1rem 0;
 }
@@ -93,7 +109,61 @@ font-family: var(--font-small-heading),sans-serif;
     font-family: var(--font-heading);
 }
 
+/* =============Work section css=========== */
+.stack li{
+    cursor: pointer;
+}
 
+/* =============== cards =========== css */
+.card {
+    min-height: 20rem;
+}
+
+.card-item-btn{
+    background-color: rgba(255, 255, 255, 0.40);
+}
+
+.card-1 {
+    background: url(images/card-4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.card-2 {
+    background: url(images/card-1.png) no-repeat;
+    background-size: cover;
+}
+
+.card-3 {
+    background: url(images/card-5.png) no-repeat;
+    background-size: cover;
+}
+
+.card-4 {
+    background: url(images/card-3.png) no-repeat;
+    background-size: cover;
+}
+
+.card-5 {
+    background: url(images/card-1.png) no-repeat;
+    background-size: cover;
+}
+
+.card-6 {
+    background: url(images/card-5.png) no-repeat;
+    background-size: cover;
+}
+
+.card-body {
+    padding-top: 6rem;
+}
+
+.card-btn-p {
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: var(--orange);
+}
+
+/* ============= media queries ========== */
 @media only screen and (max-width:768px){
 
     .main-s{
@@ -129,6 +199,4 @@ font-family: var(--font-small-heading),sans-serif;
     .about-me-container .skill-row .mob-p .d-flex{
         justify-content:center !important;
       }
-
-       
 }
