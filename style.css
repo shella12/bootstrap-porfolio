@@ -87,6 +87,11 @@ font-family: var(--font-small-heading),sans-serif;
     margin: 1rem 0;
 }
 
+.contact-btn{
+    background-color: var(--orange);
+    color: #fff;
+    font-family: var(--font-heading);
+}
 
 
 @media only screen and (max-width:768px){
